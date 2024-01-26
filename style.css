@@ -1,0 +1,20 @@
+.card {
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 2vh;
+}
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text {
+  padding-left: 1vh;
+  padding-right: 1vh;
+}
+
+.row {
+  gap: 2.9vw;
+  flex-grow: 1;
+}
