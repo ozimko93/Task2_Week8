@@ -18,3 +18,25 @@
   gap: 2.9vw;
   flex-grow: 1;
 }
+
+.card-footer {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 840px) {
+  .card-text {
+    font-size: 0.6em;
+  }
+
+  .nav-link {
+    font-size: 0.7em;
+  }
+}
+@media (min-width: 340px) and (max-width: 593px) {
+  .btn-primary {
+    font-size: 0.45em;
+  }
+}
